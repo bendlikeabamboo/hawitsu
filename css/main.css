@@ -1,76 +1,6 @@
-.character {
-    background-color: dimgray;
-    width: 200px;
-}
-
-.element {
-    background-color: black;
-    width: 100px;
-}
-
-.posBot {
-    position: relative;
-    bottom: 2px;
-    top: 5px;
-    left: 100px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-}
-
-.posFixed {
-    position: fixed;
-    bottom: 200px;
-    left: 200px;
-    border: lawngreen 2px solid;
-}
-
-.posFixed2 {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    border: brown 2px solid;
-}
-
-.footerFormat {
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    font-size: 16px;
-    display: table-cell;
-    vertical-align: middle;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: Source Code Pro;
-    src: url(resources/fonts/SourceCodePro-Regular.ttf);
-}
-
-.footerContainer {
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    width: 100%;
-    background-color: gainsboro;
-    padding: 10px
-}
-
-.navbar td {
-    padding: 0px 35px 0px 35px;
-    position: static;
-}
-
-.navbar {
-    background-color: gainsboro;
-    padding: 1%;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
+/* 
+DEFAULTS 
+ */
 
 @font-face {
     font-family: RobotoRegular;
@@ -78,12 +8,101 @@
 }
 
 body {
-    margin-left: 33%;
-    margin-right: 33%;
     font-family: RobotoRegular
+}
+
+
+
+/* 
+FOOTER 
+ */
+
+.footerContainer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #6B7A8F;
+    color: whitesmoke;
+    padding: 10px
+}
+
+/*
+TEXT ALIGNS
+*/
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .justify {
     text-align: justify;
     text-indent: 30px;
+}
+
+/* 
+STANDARD CONTENT ==========================
+*/
+
+.standardContent body {
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+/*
+NAVBAR
+*/
+.navbar {
+    font-family: RobotoRegular;
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: #6B7A8F;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 1.2vw;
+    color: whitesmoke;
+    display: block;
+}
+
+a:hover {
+    background-color: #f7882f;
+}
+
+/*
+learnTableStyling
+*/
+
+.learnTableStyling {
+    font-family: RobotoRegular;
+}
+
+.learnTableStyling th {
+    padding: 1vw;
+}
+
+.learnTableStyling table,
+th,
+td {
+    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+}
+
+.learnTableStyling th {
+    background-color: #f7882f;
+    color: whitesmoke;
+}
+
+.learnTableStyling tr:hover {
+    background-color: #f7c331;
 }
