@@ -1,0 +1,12 @@
+@font-face {
+    font-family: RobotoRegular;
+    src: url(../resources/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: RobotoRegular
+}
+
+.navBarLogo {
+    font-family: RobotoRegular;
+}
