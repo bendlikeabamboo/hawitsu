@@ -1,1 +1,13 @@
+# environment files
 .env
+
+# pycache
+**/__pycache__/
+
+# vscode
+.vscode/
+
+# datafiles
+**/*.json
+**/*.csv
+**/*.txt
