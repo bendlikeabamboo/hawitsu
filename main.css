@@ -1,0 +1,148 @@
+@font-face {
+    font-family: anonymous;
+    src: url(resources/fonts/cousine/Cousine-Regular.ttf);
+}
+
+body {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.left-align {
+    text-align: left;
+}
+
+.sectionHeader {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.image1 {
+    position: relative;
+    width: 100%;
+    opacity: 1.0;
+}
+
+.image2 {
+    position: absolute;
+    top: 12%;
+    left: 53%;
+    scale: 70%;
+    border-radius: 50%;
+}
+
+.coverImage {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+.coverText {
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    text-align: right;
+    font-size: medium;
+    padding-right: 2%;
+    font-weight: 500;
+    font-family: anonymous;
+    letter-spacing: -0.05em;
+}
+
+span.white {
+    background-color: white;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+span.black {
+    background-color: black;
+    color: white;
+    background-clip: content-box;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 500;
+}
+
+span.accent {
+    background-color: #af2427;
+    color: white;
+    background-clip: content-box;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 500;
+    background-clip: padding-box;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+p span.black {
+    padding-left: 2.5%;
+}
+
+p span.white {
+    padding-left: 8%;
+}
+
+
+.shadow1 {
+    margin: 40px;
+    background-color: rgb(68, 68, 68);
+    /* Needed for IEs */
+
+    -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3, MakeShadow=true, ShadowOpacity=0.30);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+    zoom: 1;
+}
+
+.shadow1 .content {
+    position: relative;
+    /* This protects the inner element from being blurred */
+    padding: 100px;
+    background-color: #DDD;
+}
+
+.footer {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    background-color: whitesmoke;
+    font-size: small;
+}
+
+.footer .col {
+    color: gray;
+}
+
+
+.customizeCard {
+    padding-bottom: 2.5%;
+}
+
+.aboutMe {
+    padding: 2%
+}
+
+.aboutMe .col {
+    padding: 2%;
+}
+
+.aboutMe .biography {
+    text-align: justify;
+}

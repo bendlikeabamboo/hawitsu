@@ -1,36 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
-    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M. Balmeo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/60683580?v=4" type="image/x-icon">
 </head>
 
 <body>
-    <nav>
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">My Work</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-    <br>
-    <h1>Manuel Balmeo</h1>
-    <div class="justify">
-        <p>Graduate of B.S. Applied Physics, under computational material science concentration (surface studies using
-            density functional theory). Currently working as a data analyst in the brand marketing industry. Problem
-            solver, open-source software and
-            blockchain enthusiast.
-        </p>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <div class="navBarLogo">
+                    <a class="navbar-brand" href="index.html">M. Balmeo</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="aboutme.html">About Me</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="learn_2022/index.html">Learn 2022</a></li>
+                                <li><a class="dropdown-item" href="portfolio.html">Professional Experience</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="publications.html">Publications</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Rates</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </div>
-    <div class='footerContainer'>
-        <footer>Copyright &copy; 2022 Manuel Balmeo</footer>
+
+
+    <div class="coverImage">
+        <div class="shadow">
+            <img class="image1" src="resources/images/background.jpg" alt="">
+            <img class="image2" src="https://avatars.githubusercontent.com/u/60683580?v=4" alt="" srcset="">
+            <div class="coverText">
+                <h1><span class="black">Abstr</span><span class="white">act</span></h1>
+                <p>
+                    <span class="white">I am </span>
+                    <span class="black"> Manuel Martin Balmeo.</span><br>
+                    <span class="white">IT Risk and Security Analyst.</span>
+                    <span class="black">Physics (Computational Material Science - Density Functional Theory).</span><br>
+                    <span class="white"> Data Analyst. </span> <br>
+                    <span class="black"> Developer. </span>
+                    <span class="white">Games.</span>
+                    <span class="black">Films.</span>
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sectionHeader">
+
+        <h1>Manuel Martin Balmeo</h1>
+    </div>
+    <div class="aboutMe">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col">
+                    <h2>Biography</h2>
+                    <div class="biography">
+                        <p>
+                            I am Manuel M. Balmeo, an IT risk and security analyst in the finance industry, working
+                            at <span class="accent"> ING Hubs PH.</span> I was a data analyst in the brand marketing
+                            industry, working for GroupM through <span class="accent">iScale Ventures </span> and held
+                            the same position
+                            for <span class="accent">Aarki</span>, a mobile marketing
+                            company absorbed by Skillz. I
+                            graduated as a bachelor of science in applied physics at the University of the Philippines
+                            Los
+                            Ba&#241;os, with a major in computational physics.
+                        </p>
+                    </div>
+
+                    <h4>Professional History</h4>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    ING Hubs Philippines
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>IT Risk & Security Analyst.</strong> I am responsible for developing and
+                                    maintaining relevant dashboards focused on IT risk and security. Mastery of Python's
+                                    pandas package, object-oriented paradigm, and code maintenance were exhibited in
+                                    this position. As of writing, I am still being onboarded with the team and primarily
+                                    helping the team catch up with tech debt.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    GroupM (iScale Ventures)
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>Data Analyst.</strong> Responsible for data maintenance, logic maintenance,
+                                    and web scraping. Developed minimum viable products (MVPs) used by quality assurance
+                                    team for quick data integrity checking, process overview, and uptime tracking.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Aarki
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>Data Analyst.</strong> Key analyst for the fast growth (400% YoY growth)
+                                    of an e-commerce. My role here entails the management of the day-to-day advertising
+                                    operations of two key accounts. I also have accomplished the following:
+                                    (i) created and shared a data processing script to shorten hours of manual work to
+                                    minutes (data ETL); (ii) Created a Bayesian A/B testing script for managing hundreds
+                                    of continuous A/B
+                                    tests; (iii) Created visualization scripts in Python for faster campaign overview;
+                                    (iv) Utilized knowledge in regular expressions and authored a shared spreadsheet
+                                    which
+                                    automates extraction of key information from different sources and introduced status
+                                    on demand capability
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+
+
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container text-left">
+            <div class="row align-items-start">
+                <div class="col">
+                    Site Map
+                </div>
+                <div class="col">
+                    Projects
+                </div>
+                <div class="col">
+                    Affiliations
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    About Me
+                </div>
+                <div class="col">
+                    Learn 2022
+                </div>
+                <div class="col">
+                    University of the Philippines Los Ba&#241;os
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    Contact Me
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    ING Hubs PH
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    Rates
+                </div>
+                <div class="col">
+
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col">
+                    <br>
+                    <br>
+                    <br>
+                    &copy; 2022 Manuel Martin Balmeo
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
