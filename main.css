@@ -49,7 +49,7 @@ body::-webkit-scrollbar {
 
 
 
-.biography {
+.coverText {
     display: block;
     position: absolute;
     top: 20%;
@@ -62,28 +62,38 @@ body::-webkit-scrollbar {
     letter-spacing: -0.05em;
 }
 
-.biography span.white {
+span.white {
     background-color: white;
-
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
 
-.biography span.black {
+span.black {
     background-color: black;
     color: white;
-
     background-clip: content-box;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     font-weight: 500;
 }
 
-.biography p span.black {
+span.accent {
+    background-color: #af2427;
+    color: white;
+    background-clip: content-box;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-weight: 500;
+    background-clip: padding-box;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+p span.black {
     padding-left: 2.5%;
 }
 
-.biography p span.white {
+p span.white {
     padding-left: 8%;
 }
 
@@ -123,4 +133,16 @@ body::-webkit-scrollbar {
 
 .customizeCard {
     padding-bottom: 2.5%;
+}
+
+.aboutMe {
+    padding: 2%
+}
+
+.aboutMe .col {
+    padding: 2%;
+}
+
+.aboutMe .biography {
+    text-align: justify;
 }
