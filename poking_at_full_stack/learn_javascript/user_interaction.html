@@ -14,6 +14,7 @@
         integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="on_click.css">
 </head>
 
 <nav class="navbar navbar-expand-lg bg-light">
@@ -65,17 +66,24 @@
     </div>
 </nav>
 
-<body>
-    <p><a href="../index.html">Go Back</a></p>
-    
-    <p>Learn Javascript: Index
-        <ul>
-            <li><a href="on_click.html">onClick</a></li>
-            <li><a href="variables.html">Variables</a></li>
-            <li><a href="user_interaction.html">userInteraction</a></li>
-        </ul>
-    </p>
-    <script type="text/javascript" src="index.js"></script>
+<body id="bodyy">
+    <a href="index.html">Go Back</a>
+    <h1>User interaction changing a variable</h1>
+    <p>The value is currently:</p>
+    <p id="number">0</p>
+    <button type="button" onclick="addOne()">Click to +1</button>
+
+    <h1>Counter</h1>
+    <button type="button" onclick="counterMinusOne()">Click to -1</button>
+    <p id="number2">Count: 0</p>
+    <button type="button" onclick="counterAddOne()">Click to +1</button>
+    <br>
+    <br>
+    <h1>Counter with Color</h1>
+    <button type="button" onclick="minusBgColor()">Click to -1</button>
+    <p id="number3">Count: 0</p>
+    <button type="button" onclick="plusBgColor()">Click to +1</button>
+    <script type="text/javascript" src="user_interaction.js"></script>
 </body>
 
 </html>
