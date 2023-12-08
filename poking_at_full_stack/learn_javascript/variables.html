@@ -67,42 +67,15 @@
 </nav>
 
 <body>
-    <a href="index.html">Go Back</a>
-    <div class="container">
+<a href="index.html">Go Back</a>
+<br>
+<br>
+<h1>Exploring variables</h1>
 
-        <h2>Introduction to Javascript functions</h2>
-        <button type="button" class="btn btn-primary" onclick="buttonAlert()">Clicking this button will call the
-            function in onClick.js</button>
-        <br>
-        <br>
-
-
-        <h3 id="header-id-001">This should change</h3>
-        <button type="button" class="btn btn-primary" onclick="changeText()">Change Text</button>
-
-
-        <br>
-        <br>
-
-        <h3 id="header-id-002">Will you go GREEN?</h3>
-        <button type="button" class="btn btn-primary" onclick="changeBackground()" id="button-id-001">Click to go
-            GREEN</button>
-
-        <br>
-        <br>
-
-        <h4>Here, we can see more events</h4>
-
-        <div id="divOne" onmouseout="changeDivOne()">
-            <p>This is the first box</p>
-        </div>
-
-
-        <div id="divTwo" onmouseenter="changeDivTwo()" onmouseleave="changeDivTwoBack()">
-            <p>This is the second div</p>
-        </div>
-        <script type="text/javascript" src="onClick.js"></script>
-    </div>
+<p id="para" onmouseover="myFunction(myVariable)" onmouseout="myFunction('Not working')">Not working</p>
+<button type="button" onclick="doAlert(iLikeObjects)">Click Me</button>
+<button type="button" onclick="doComparisonAlert()">This will alert</button>
+<script type="text/javascript" src="variables.js"></script>
 </body>
 
 </html>
