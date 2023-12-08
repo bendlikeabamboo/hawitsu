@@ -1,0 +1,17 @@
+#divOne {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+}
+
+#divTwo {
+    width: 800px;
+    height: 200px;
+    background-color:yellow;
+    border-color: orange;
+    border-style: solid;
+    text-align: center;
+}
